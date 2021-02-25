@@ -1,0 +1,256 @@
+.photo{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.profileContainer{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 3rem;
+    width:100%;
+    
+
+}
+
+.profileContainer > img {
+    width: 14.5rem;
+    height: 14.5rem;
+    border-radius: 50%;
+    
+}
+
+
+.profileName {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    margin-top:2rem;
+    font-weight: 800;
+    color: var(--title);
+    font-size: 2.7rem;
+}
+
+.profileDescription{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    margin:1.5rem 3rem;
+    font-weight: 400;
+    color: var(--title);
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #d7d8da;
+}
+
+.profilespan{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top:18px;
+}
+.profileTech{
+    margin-left: -1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    flex: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    column-count: 5;
+    column-gap: 10px;
+}
+.profileTechnology{
+    width:16rem;
+    height:190px;
+    margin-top:20px;
+    margin-left: 27px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid var(--gray);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+
+.profileTechnology img {
+    width:13rem;
+}
+
+.profileTechnology:hover{
+    border:2px solid var(--blue-twitter);
+    background: var(--background-hover);
+}
+
+
+.abt{
+    visibility: hidden; 
+    position: absolute; 
+    width: 0px; 
+    height: 0px;
+}
+
+.TagContainer{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.tags {
+    list-style: none;
+    margin: 0;
+    overflow: hidden; 
+    padding: 0;
+    
+  }
+  
+  .tags li {
+    float: left; 
+  }
+  
+  .tag {
+    background: rgb(202, 201, 201);
+    border-radius: 3px 0 0 3px;
+    color: rgb(71, 71, 71);
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 20px 0 23px;
+    position: relative;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    -webkit-transition: color 1s;
+    
+  }
+  
+  .tag::before {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
+    content: '';
+    height: 6px;
+    left: 10px;
+    position: absolute;
+    width: 6px;
+    top: 10px;
+  }
+  
+  .tag::after {
+    background: #f2f3f5;
+    border-bottom: 13px solid transparent;
+    border-left: 10px solid #eee;
+    border-top: 13px solid transparent;
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .a:hover {
+    background-color: #2a6ac9;
+    color: white;
+  }
+  
+  .a:hover::after {
+     border-left-color: #2a6ac9; 
+  }
+  
+  
+  .c:hover {
+    background-color: #212121;
+    color: white;
+  }
+  
+  .c:hover::after {
+     border-left-color: #212121; 
+  }
+  
+  
+  .b:hover {
+    background-color: #15c23e;
+    color: white;
+  }
+  
+  .b:hover::after {
+     border-left-color: #15c23e; 
+  }
+
+
+
+
+@media(max-width:630px){
+    .profileTechnology{
+        width:34rem;
+        height:240px;
+        margin: 40px 40px 40px 50px;
+
+    } 
+
+    .profileTech{
+        display:inline;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+
+
+    .a {
+        background-color: #2a6ac9;
+        color: white;
+      }
+      
+      .a:after {
+         border-left-color: #2a6ac9; 
+      }
+      
+      .b {
+        background-color: #15c23e;
+        color: white;
+      }
+      
+      .b:after {
+        border-left-color: #15c23e; 
+     }
+      .c {
+        background-color: #212121;
+        color: white;
+      }
+      
+      .c:after {
+         border-left-color: #212121; 
+      }
+      
+    
+}
+
+
+@media(max-width:532px){
+    .profileTechnology{
+        width:26rem;
+        min-width:370px;
+        margin: 40px 40px 40px 27px;
+    } 
+    
+    
+}
+
+
+@media(max-width:470px){
+    .profileContainer{    
+        margin: 0;
+    }
+    
+    .profileContainer > img {
+        width: 100%;
+        min-width:410px;
+        height: 28.5rem;
+        border-radius: 0 0 15px 15px;
+        
+    }
+}
