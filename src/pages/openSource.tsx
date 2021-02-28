@@ -1,4 +1,4 @@
-import styles from '../styles/components/Levels.module.css';
+import styles from '../styles/components/openSource.module.css';
 
 import Head from 'next/head';
 
@@ -15,8 +15,6 @@ export default function Levels() {
             <div className={styles.container}>  
             
             <h1 className={styles.title}>Projetos Open source</h1>
-            
-            
             
             </div>
         </div>
