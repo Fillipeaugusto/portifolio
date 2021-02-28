@@ -17,30 +17,11 @@
     
 }
 
-.progress{
-    margin-top:6rem;
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 10px;
-}
-.percentage{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top:-140px;
-    font-size:26px;
-}
+
+
 
 @media(max-width:560px){
-    .progress{
-        grid-template-columns: repeat(2,1fr);
-        }
-    .progressbar{
-        margin-bottom: 10rem;
-        margin-left: 20px;
-        margin-right: 6px
-    }
-
+    
     .title{
         width:300px
     }
@@ -51,10 +32,7 @@
         width:100%;
     }
 
-    .progress{
-        display:flex;;
-        flex-direction: column;
-        }
+    
 
        
 }
