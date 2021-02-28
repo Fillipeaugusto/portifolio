@@ -1,0 +1,86 @@
+
+
+.footerContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.6rem;
+}
+
+
+.buttonGit, .buttonLink{
+    width:9rem;
+    height:3.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+}
+.buttonGit{
+    background-color: rgba(36, 35, 35, 0.856);
+    color:white;
+    transition: 0.6s;
+    font-size:13px;
+}
+
+.buttonGit img {
+    width:30%;
+    margin-left: 30px;
+}
+
+.buttonGit:hover{
+    background-color: black;
+    
+}
+
+.buttonLink{
+    background-color: rgba(48, 109, 240, 0.911);
+    color:white;
+    font-size: 20px;
+    font-family: Rajdhani;
+    transition: 0.6s;
+}
+.buttonLink:hover{
+    background-color: rgb(19, 93, 255);
+    
+}
+
+.footerContainer > div{
+    margin-right: 10px;
+   
+}
+
+
+
+@media(max-width:470px){
+    
+    .footerContainer{
+        display:grid;
+        grid-template-rows: auto;
+        margin-bottom: 1.5rem;
+    }
+    .buttonGit, .buttonLink{
+        width:21rem;
+        margin-left: 0.7rem;
+        height:3.7rem;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        cursor: pointer;
+        font-size:20px;
+    }
+
+    .buttonGit img {
+        width:13%;
+        margin-left: 80px;
+        margin-top: 1px;
+       
+    }
+
+    .buttonLink  {
+        font-size:27px;
+       
+    }
+}

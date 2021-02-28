@@ -1,13 +1,24 @@
 import styles from '../styles/components/Footer.module.css';
+import Link from 'next/link';
+import { ChevronUp} from 'react-iconly';
+
 export default function Footer(){
+   
+  function scrollToTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+      }
+
     return(
-    <div className={styles.footerContainer}>
-      <div className={styles.buttonGit}>
-         <a target="_blank" href="https://github.com/Fillipeaugusto"><img src="logos/git33.svg" alt=""/>  GitHub</a>
-      </div>
-      <div className={styles.buttonLink}>
-         <a target="_blank" href="https://www.linkedin.com/in/fillipe-augusto-a0bba7169">linkedin</a>
-      </div>
-     </div>
+        <div className={styles.container}>
+            <div className={styles.content}>
+            <p><Link href="openSource" >Projetos open-source</Link></p>  
+            <button type="button" onClick={scrollToTop}> 
+            <ChevronUp set="two-tone" primaryColor="white"/>
+             </button>
+            </div>
+        </div>
     );
 }

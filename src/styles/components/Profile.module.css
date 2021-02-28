@@ -162,12 +162,12 @@
   
   
   .c:hover {
-    background-color: #212121;
+    background-color: #F0DB4F;
     color: white;
   }
   
   .c:hover::after {
-     border-left-color: #212121; 
+     border-left-color: #F0DB4F; 
   }
   
   
@@ -218,12 +218,12 @@
         border-left-color: #15c23e; 
      }
       .c {
-        background-color: #212121;
+        background-color: #F0DB4F;
         color: white;
       }
       
       .c:after {
-         border-left-color: #212121; 
+         border-left-color: #F0DB4F; 
       }
       
     

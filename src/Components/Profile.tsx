@@ -16,13 +16,13 @@ export function Profile() {
             <div className={styles.TagContainer}>
             <ul className={styles.tags}>
                 <li><a href="#" className={`${styles.tag} ${styles.a}` }>React JS</a></li>
-                <li><a href="#" className={`${styles.tag} ${styles.b}`}>Node JS</a></li>
-                <li><a href="#" className={`${styles.tag} ${styles.c}`}>Next JS</a></li>
+                <li><a href="#" className={`${styles.tag} ${styles.b}`}>Next JS</a></li>
+                <li><a href="#" className={`${styles.tag} ${styles.c}`}>Javascript</a></li>
             </ul>
             </div>
             
             <h2 className={styles.profileDescription}> Apaixonado por tecnologia e como ela transforma a humanidade</h2>
-
+           
             <div className={styles.abt}>
                 <svg xmlns="http://www.w3.org/2000/svg">
                     <symbol viewBox="0 0 24 24" id="expand-more">
@@ -60,6 +60,7 @@ export function Profile() {
                 <p>Meu principal objetivo como Dev é criar soluções para ajudar pessoas resolverem seus problemas, 
                     mas também tornar sonhos que estavam no papel em realidade com o poder da programação.
                 </p>
+                
             </details>
 
             <details >
@@ -68,8 +69,10 @@ export function Profile() {
     <svg className="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlnsXlink="http://www.w3.org/1999/xlink" xlinkHref="#expand-more" /></svg>
                     <svg className="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlnsXlink="http://www.w3.org/1999/xlink" xlinkHref="#close" /></svg>
                 </summary>
-                <p>Atualmente Estudando  ( React.JS | Node JS | Next.js | Javascript).</p>
-                <p>Experiência em  (Mysql | Php | Css ).</p>
+                <p>Atualmente Estudando :</p> 
+                <p> ( React.JS | Node JS | Next.js | Javascript).</p>
+                <p>Experiência em :</p> 
+                <p> (Mysql | Php | Css ).</p>
             </details>
 
 

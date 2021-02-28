@@ -1471,6 +1471,11 @@ react-dom@17.0.1:
     object-assign "^4.1.1"
     scheduler "^0.20.1"
 
+react-iconly@^1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/react-iconly/-/react-iconly-1.1.5.tgz#b14c08be5db4d008d73f2f071f736d8b619d1343"
+  integrity sha512-BzEJkMtdRAeGdSxKhN4EDqv78TUIhPfJeKjvkc7MvG1zfUNyLBP3DnsuWo2ddLDW4ItHRgxZHuZbI6J4daoP9w==
+
 react-icons@*:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-4.2.0.tgz#6dda80c8a8f338ff96a1851424d63083282630d0"
